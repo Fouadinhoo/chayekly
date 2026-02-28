@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089212131211",
+    "project_id": "chayekly",
+    "storage_bucket": "chayekly.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089212131211:android:14136e18dd5978fa25318e",
+        "android_client_info": {
+          "package_name": "com.chayekly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNwuZPG6PdBd6KNxRcI7MQQU1cdoF8MZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

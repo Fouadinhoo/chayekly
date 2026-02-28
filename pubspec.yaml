@@ -1,0 +1,65 @@
+name: chayekly
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.6 
+  image_picker: ^1.0.7
+  
+  # State Management
+  provider: ^6.1.1
+
+  # Localization
+  easy_localization: ^3.0.3
+
+  # Maps & Location
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.3
+  geocoding: ^4.0.0
+
+  # PDF Generation
+  pdf: ^3.10.7
+  printing: ^5.11.0
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+  http: ^1.2.0
+
+  # UI & Utils
+  intl: ^0.20.2  
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  url_launcher: ^6.2.2
+  flutter_stripe: ^9.2.3
+  # Removed: flutter_credit_card: ^3.0.6
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+
+dependency_overrides:
+  web: ^0.5.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png" 
+  adaptive_icon_background: "#0F4C75" 
+  adaptive_icon_foreground: "assets/images/logo.png"
